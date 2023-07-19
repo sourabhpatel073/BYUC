@@ -14,6 +14,6 @@ const OEMSchema = mongoose.Schema(
   }
 );
 
-const OEMModel = mongoose.model("note", OEMSchema);
+const OEMModel = mongoose.model("OEM", OEMSchema);
 
 module.exports = { OEMModel };
